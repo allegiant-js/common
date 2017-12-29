@@ -16,6 +16,6 @@ npm install @allegiant/common --save
 
 ### Copyright & License
 
-Copyright &copy; 2017 Allegiant. Distributed under the terms of the MIT License, see [LICENSE](https://github.com/allegiant-js/mime/blob/master/LICENSE)
+Copyright &copy; 2017 Allegiant. Distributed under the terms of the MIT License, see [LICENSE](https://github.com/allegiant-js/common/blob/master/LICENSE)
 
-Availble via [npm](https://www.npmjs.com/package/@allegiant/mime) or [github](https://github.com/allegiant-js/mime).
+Availble via [npm](https://www.npmjs.com/package/@allegiant/common) or [github](https://github.com/allegiant-js/common).
