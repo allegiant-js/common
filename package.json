@@ -1,0 +1,31 @@
+{
+    "name": "@allegiant/common",
+    "version": "0.0.5",
+    "description": "Shared function for allegiant.",
+    "author": "echopoint <echopoint@tutanota.com>",
+    "contributors": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/allegiant-js/common/issues"
+    },
+    "homepage": "https://github.com/allegiant-js/common#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/allegiant-js/common.git"
+    },
+    "main": "index.js",
+    "engine": {
+        "node": "> 7.6"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "tap test/*.js",
+        "coverage": "tap test/*.js --coverage"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^4.12.1",
+        "jsdoc": "^3.5.5",
+        "tap": "^11.0.1"
+    }
+}
