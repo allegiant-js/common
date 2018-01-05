@@ -111,14 +111,14 @@ async function asyncFilter(arr, callback) {
         list = [];
 
     for (i=0; i < max; i++) {
-            setTimeout(async function(val) {
-                var r = await callback(val);
-                if (r)
-                    list.push(r);
-                
-                if (++count >= max)
-                    resolve(list);
-            }.bind(null, arr[i]), 1);
+        setTimeout(async function(val) {
+            var r = await callback(val);
+            if (r)
+                list.push(r);
+            
+            if (++count >= max)
+                resolve(list);
+        }.bind(null, arr[i]), 1);
     }
     });
 }
